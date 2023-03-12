@@ -65,7 +65,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 MAX_BTN = int(environ.get('MAX_BTN', '7'))
 
-AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 100))
+AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 100000))
 
 FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', LOG_CHANNEL))
 
